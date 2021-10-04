@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Strawberry
+  - Trap
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: LIMITERS
+    uniqueID: 69006749
+    locked: 0
+  - name: Background
+    uniqueID: 1291589479
+    locked: 0
+  - name: p1
+    uniqueID: 3526597491
+    locked: 0
+  - name: p2
+    uniqueID: 3567496913
+    locked: 0
+  - name: p3
+    uniqueID: 3248431595
+    locked: 0
+  - name: p4
+    uniqueID: 845401517
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 1408429495
+    locked: 0
+  - name: Character
+    uniqueID: 1915798329
+    locked: 0
