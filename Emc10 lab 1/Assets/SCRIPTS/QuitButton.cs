@@ -5,14 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class QuitButton : MonoBehaviour
 {
-    SavePlayerPos playerPosData;
-    void Start()
-    {
-        playerPosData = FindObjectOfType<SavePlayerPos>();
-    }
+    
+   
     public void QuitGame()
     {
-        playerPosData.PlayerPosSave();
         SceneManager.LoadScene("start screen");
     }
+    public void RetryGame()
+    {
+        SceneManager.LoadScene("LEVEL 1");
+    }
+
 }

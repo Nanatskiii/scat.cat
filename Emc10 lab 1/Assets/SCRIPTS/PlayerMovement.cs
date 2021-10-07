@@ -7,13 +7,9 @@ public class PlayerMovement : MonoBehaviour
     private SpriteRenderer sprite;
     private Animator anim;
 
-    SavePlayerPos playerPosData;
-    private void Awake()
-    {
-        playerPosData = FindObjectOfType<SavePlayerPos>();
-        playerPosData.PlayerPosLoad();
-    }
-
+    
+    
+   
 
 
     [SerializeField] private LayerMask jumpableGround;
