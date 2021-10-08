@@ -908,7 +908,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1474042362}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
         m_MethodName: LoadGame
         m_Mode: 1
@@ -1575,9 +1575,7 @@ GameObject:
   - component: {fileID: 1474042360}
   - component: {fileID: 1474042359}
   - component: {fileID: 1474042358}
-  - component: {fileID: 1474042362}
   - component: {fileID: 1474042364}
-  - component: {fileID: 1474042363}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1669,31 +1667,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1474042362
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474042357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9f2c8c26d0eeb2444a17e17ff1581a4e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1474042363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1474042357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb1612410efedf84c84908a406759165, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
 --- !u!114 &1474042364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1916,7 +1889,6 @@ GameObject:
   - component: {fileID: 1826205810}
   - component: {fileID: 1826205809}
   - component: {fileID: 1826205808}
-  - component: {fileID: 1826205807}
   m_Layer: 5
   m_Name: newgame button
   m_TagString: Untagged
@@ -1944,18 +1916,6 @@ RectTransform:
   m_AnchoredPosition: {x: -579, y: -71}
   m_SizeDelta: {x: 206.1749, y: 38.6578}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1826205807
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826205805}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a5960fdf1ee2d9438a1b0e58e2af64a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1826205808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2000,21 +1960,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1826205807}
-        m_TargetAssemblyTypeName: StartMenu, Assembly-CSharp
-        m_MethodName: StartGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1474042362}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
-        m_MethodName: NewGame
+      - m_Target: {fileID: 1474042364}
+        m_TargetAssemblyTypeName: QuitButton, Assembly-CSharp
+        m_MethodName: RetryGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

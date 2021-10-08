@@ -13,7 +13,7 @@ public class QuitButton : MonoBehaviour
     }
     public void RetryGame()
     {
-        SceneManager.LoadScene("LEVEL 1");
+        SceneManager.LoadScene("LEVEL1000");
     }
 
 }
