@@ -23921,6 +23921,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3530667159652717252, guid: 3d857381321ec2e47b3f900523b48b7e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4723107735738678597, guid: 5dd7b496bdd9c9d468dbc1898d7ea2ab, type: 3}
+    - target: {fileID: 3530667159652717254, guid: 3d857381321ec2e47b3f900523b48b7e, type: 3}
+      propertyPath: m_Size.x
+      value: 1.3144112
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530667159652717254, guid: 3d857381321ec2e47b3f900523b48b7e, type: 3}
+      propertyPath: m_Size.y
+      value: 1.054851
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530667159652717254, guid: 3d857381321ec2e47b3f900523b48b7e, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.054252625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530667159652717254, guid: 3d857381321ec2e47b3f900523b48b7e, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.1497345
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530667159652717254, guid: 3d857381321ec2e47b3f900523b48b7e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 1.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3530667159652717254, guid: 3d857381321ec2e47b3f900523b48b7e, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.4375
+      objectReference: {fileID: 0}
     - target: {fileID: 3530667159652717255, guid: 3d857381321ec2e47b3f900523b48b7e, type: 3}
       propertyPath: m_Name
       value: player

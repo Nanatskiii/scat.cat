@@ -7,9 +7,9 @@ public class QuitButton : MonoBehaviour
 {
     
    
-    public void QuitGame()
+    public void MainMenu()
     {
-        SceneManager.LoadScene("start screen");
+        SceneManager.LoadScene("Start screen");
     }
     public void RetryGame()
     {
