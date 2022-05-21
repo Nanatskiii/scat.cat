@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Strawberry
   - Trap
+  - Terrain
   layers:
   - Default
   - TransparentFX
