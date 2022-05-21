@@ -15,6 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/End Sreen.unity
     guid: 4f9983ea1b7d59e4daf629975a92e1da
   - enabled: 0
-    path: Assets/Scenes/LEVEL 1.unity
+    path: Assets/Scenes/Hide lang sa.unity
     guid: 654299f9bd5f6f7429f2a9b0bb7a3005
   m_configObjects: {}
