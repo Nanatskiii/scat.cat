@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class QuitButton : MonoBehaviour
+public class HARD : MonoBehaviour
 {
-    
-   
-    public void MainMenu()
+
+
+    public void HARD2()
     {
-        SceneManager.LoadScene("Start screen");
+        SceneManager.LoadScene("LEVEL 3");
     }
     public void RetryGame()
     {

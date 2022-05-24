@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class QuitButton : MonoBehaviour
+public class MEDIUM : MonoBehaviour
 {
-    
-   
-    public void MainMenu()
+
+
+    public void MEDIUM1()
     {
-        SceneManager.LoadScene("Start screen");
+        SceneManager.LoadScene("LEVEL 2");
     }
     public void RetryGame()
     {
-        SceneManager.LoadScene("LEVEL 1");
+        SceneManager.LoadScene("LEVEL 2");
     }
 
 }
