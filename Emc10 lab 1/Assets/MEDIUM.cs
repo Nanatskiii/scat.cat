@@ -9,7 +9,7 @@ public class MEDIUM : MonoBehaviour
 
     public void MEDIUM1()
     {
-        SceneManager.LoadScene("LEVEL 2");
+        SceneManager.LoadScene("Start screen");
     }
     public void RetryGame()
     {

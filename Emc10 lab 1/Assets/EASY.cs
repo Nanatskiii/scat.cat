@@ -3,17 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class HARD : MonoBehaviour
+public class EASY : MonoBehaviour
 {
 
 
-    public void HARD2()
+    public void EASY1()
     {
         SceneManager.LoadScene("Start screen");
     }
     public void RetryGame()
     {
-        SceneManager.LoadScene("LEVEL 3");
+        SceneManager.LoadScene("LEVEL 1");
     }
 
 }

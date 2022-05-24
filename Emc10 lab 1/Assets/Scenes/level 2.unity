@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 16854150}
   - component: {fileID: 16854149}
   m_Layer: 5
-  m_Name: MAIN MENU BUTTON (2)
+  m_Name: RETRY BUTTON
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -207,7 +207,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1276746738}
-        m_TargetAssemblyTypeName: QuitButton, Assembly-CSharp
+        m_TargetAssemblyTypeName: MEDIUM, Assembly-CSharp
         m_MethodName: RetryGame
         m_Mode: 1
         m_Arguments:
@@ -4353,7 +4353,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1276746733}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9661cfa612a823e4b956ad1949133e88, type: 3}
+  m_Script: {fileID: 11500000, guid: 24d17ccf5c9078b4e981e504d0a31b93, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1296864564
@@ -4807,8 +4807,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1276746738}
-        m_TargetAssemblyTypeName: QuitButton, Assembly-CSharp
-        m_MethodName: MainMenu
+        m_TargetAssemblyTypeName: MEDIUM, Assembly-CSharp
+        m_MethodName: MEDIUM1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -42994,7 +42994,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1276746738}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: QuitButton, Assembly-CSharp
         m_MethodName: MainMenu
         m_Mode: 1
