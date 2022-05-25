@@ -187,8 +187,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.843, y: -13}
-  m_SizeDelta: {x: 1430.3206, y: 873.4213}
+  m_AnchoredPosition: {x: -11.5063, y: -13}
+  m_SizeDelta: {x: 1459.0193, y: 883.8931}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &344281658
 MonoBehaviour:
@@ -534,8 +534,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.8430023, y: 281.2918}
-  m_SizeDelta: {x: 1410.0901, y: 176.9484}
+  m_AnchoredPosition: {x: -11.506, y: 284.8202}
+  m_SizeDelta: {x: 1437.2, y: 179.0699}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1055238859
 MonoBehaviour:
@@ -570,7 +570,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: YOU HAVE FINISHED THE GAME
+  m_Text: YOU HAVE FINISHED THE LEVEL
 --- !u!222 &1055238860
 CanvasRenderer:
   m_ObjectHideFlags: 0
